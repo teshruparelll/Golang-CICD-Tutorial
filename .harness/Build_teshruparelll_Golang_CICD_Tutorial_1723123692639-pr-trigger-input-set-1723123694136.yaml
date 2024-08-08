@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_teshruparelll_Golang_CICD_Tutorial_1723123692639-pr-trigger-input-set
+  identifier: Build_teshruparelll_Golang_CICD_Tutorial_1723123692639prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Final
+  pipeline:
+    identifier: Build_teshruparelll_Golang_CICD_Tutorial_1723123692639
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
