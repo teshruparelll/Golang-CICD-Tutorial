@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_teshruparelll_Golang_CICD_Tutorial_1723123692639-push-trigger-input-set
+  identifier: Build_teshruparelll_Golang_CICD_Tutorial_1723123692639pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Final
+  pipeline:
+    identifier: Build_teshruparelll_Golang_CICD_Tutorial_1723123692639
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
